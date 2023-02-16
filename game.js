@@ -43,11 +43,55 @@ let questions = [
     choice3: "15-20%",
     choice4: "30%-40%",
     answer: 1,
-  }
+  },
+   {
+    question: "Why do i hate Css?",
+    choice1: "its hard ",
+    choice2: "its unneccesary ",
+    choice3: "It takes too much time ",
+    choice4: "Im lazy",
+    answer: 3,
+  },
+      {
+    question: "Why do i hate HTML?",
+    choice1: "its hard ",
+    choice2: "its unneccesary ",
+    choice3: "It takes too much time ",
+    choice4: "Im lazy",
+    answer: 3,
+  },{
+    question: "Why do i hate Javascript?",
+    choice1: "its hard ",
+    choice2: "its unneccesary ",
+    choice3: "It takes too much time ",
+    choice4: "Im lazy",
+    answer: 3,
+  },{
+    question: "Choose the correct HTML element for the largest heading",
+    choice1: "<head> ",
+    choice2: "h6",
+    choice3: "h1",
+    choice4: "h2",
+    answer: 2,
+  },{
+    question: "Is chess the best ?",
+    choice1: "its hard ",
+    choice2: "its unneccesary ",
+    choice3: "It takes too much time ",
+    choice4: "Im lazy",
+    answer: 3,
+  },{
+    question: "Why do i hate Javascript?",
+    choice1: "its hard ",
+    choice2: "its unneccesary ",
+    choice3: "It takes too much time ",
+    choice4: "Im lazy",
+    answer: 3,
+  },
 ]
 
 const SCORE_POINTS = 100
-const MAX_QUESTIONS = 4
+const MAX_QUESTIONS = 10
 
 startGame = () => {
   questionCounter = 0
